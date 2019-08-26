@@ -16,6 +16,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <jim-version>2.6.0.v2019030501-RELEASE</jim-version>
     </properties>
 
     <dependencies>
@@ -32,6 +33,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.j-im</groupId>
+            <artifactId>jim-server</artifactId>
+            <version>${jim-version}</version>
         </dependency>
     </dependencies>
 
