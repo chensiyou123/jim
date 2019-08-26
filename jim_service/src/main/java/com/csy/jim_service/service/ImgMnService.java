@@ -31,7 +31,7 @@ public class ImgMnService {
 
 	public static final String dftimg = "http://images.rednet.cn/articleimage/2013/01/23/1403536948.jpg";
 	
-	public static final String filepath = "/page1/imgs/mn.txt";
+	public static final String filepath = "/page/imgs/mn.txt";
 
 	public static final int maxSize = 100000;
 	/**
@@ -182,7 +182,7 @@ public class ImgMnService {
 							}
 						}
 					} catch (IOException e1) {
-						//log.error("【"+page1+"】爬取异常!");
+						//log.error("【"+page+"】爬取异常!");
 					}
 				}
 				if (!isfirst) {
